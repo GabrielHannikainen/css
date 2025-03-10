@@ -1,0 +1,33 @@
+/*Üldine*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: #eee;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* pais ja menyy */
+.header {
+    background-color: #666;
+    color: #fff;
+    padding:20px 40px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 400;
+}
+.menu{
+    background-color: #000;
+}
+/* Sisu */
+
+
+
+/* Jalus */
