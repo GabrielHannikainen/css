@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .navbar {
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    margin-left: 1rem;
+  }
+  
+  .btn-outline-primary {
+    border-radius: 4px;
+  }
+  
+  .placeholder-img {
+    background-color: #e0e0e0;
+    color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 100%;
+    border-radius: 6px;
+    min-height: 300px;
+  }
+  
+  .card {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .card ul li {
+    padding: 0.25rem 0;
+  }
+  
+  section h2,
+  section h4 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  section p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  blockquote {
+    font-style: italic;
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+  }
+  
+  footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  footer p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  footer input.form-control {
+    width: auto;
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  footer button {
+    border-radius: 4px;
+  }
+  
