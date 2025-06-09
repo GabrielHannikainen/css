@@ -1,81 +1,74 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white;
 }
 
-/* Banner section */
+
 .banner {
-    height: 480px;
-    background-image: url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: linear-gradient(to bottom, #007b8a, #f29e66);
+  padding: 50px 20px;
+  text-align: center;
 }
 
-.banner-content {
-    text-align: center;
-    padding: 0 80px;
-}
-
-.avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 10px solid #FFD700;
-    margin-bottom: 20px;
+.banner img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px solid gold;
+  margin-bottom: 10px;
 }
 
 .banner h1 {
-    font-size: 100px;
-    color: white;
-    margin: 10px 0;
+  font-size: 50px;
+  color: white;
+  margin: 10px 0;
 }
 
 .slogan {
-    font-size: 30px;
-    color: white;
-    font-style: italic;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  margin-top: 10px;
 }
 
-/* Content */
+
 .content {
-    height: 600px;
-    padding: 40px;
+  background-color: white;
+  padding: 60px 20px;
 }
 
 .content-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+
+.content-image {
+  width: 400px;  
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  border-radius: 8px;
 }
 
 .main-text {
-    font-size: 20px;
-    line-height: 2.0;
-    margin-bottom: 40px;
+  display: inline-block;
+  width: 600px;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 1.8;
 }
 
-.content-image {
-    width: 600px;
-    height: 100px;
-    object-fit: cover;
-    margin: 100px 0;
-}
 
-/* Footer */
 footer {
-    text-align: center;
-    padding: 40px;
-    background-color: #f5f5f5;
+  background-color: gold;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 40px;
 }
-
-footer p {
-    font-size: 32px;
-} 
